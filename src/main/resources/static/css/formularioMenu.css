@@ -1,0 +1,140 @@
+body{
+    font-family: Poppins,Georgia,"Times New Roman";
+    color: #333;
+    font-weight: bolder;
+    font-size: 10px;
+    background-image: url(../img/backgrounds/tr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    height: 754px;
+    position: sticky;
+    min-width: 1400px;
+}
+.logo{
+    margin-top: 6px;
+    width: 19%;
+}
+.container{
+    width: 96%;
+    margin: 0 auto;
+}
+.header{
+    color: white;
+    padding: 1rem;
+    position: fixed;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegation{
+    width: 57%;
+}
+.navegation ul{
+    width: 100%;
+    margin: 0;
+    margin-left: 10%;
+    padding: 0;
+    list-style: none;
+}
+.user{
+    margin-top: 3px;
+    background-image: url(../img/backgrounds/im,.png);
+    background-size: cover;
+    width: 94px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 4rem;
+
+}
+.navegation ul li {
+    display: inline-block;
+}
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+}
+.navegation ul li a:hover{
+    color: #88b5ec;
+}
+.container-body{
+    width: 53%;
+    float: left;
+    height: 16rem;
+}
+.container-body2{
+    width: 43.4%;
+    float: left;
+    background: #3E6493;
+    border-radius: 0 0 6% 6%;
+}
+body .container-body2{
+    height: 47.1rem;
+}
+.text{
+    color: white;
+}
+.titulo{
+    font-weight: bolder;
+    font-size: 90px;
+}
+.test{
+    float: left;
+}
+.test-to{
+    margin-top: 100px;
+    margin-left: 24%;
+}
+.line{
+    background: white;
+    margin-left: 44%;
+    margin-top: 10rem;
+    height: 10px;
+    width: 9rem;
+}
+.Vocacional{
+    font-size: 4rem;
+    position: absolute;
+    padding-left: 3rem;
+}
+.parrafo{
+    position: absolute;
+    padding-left: 4rem;
+    padding-top: 9rem;
+    font-size: 1.24rem;
+}
+.button {
+    background-color: #ff6464;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 0 48%;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin: 2rem 0;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {opacity: 1}
+.boton{
+    position: absolute;
+    margin-left: 8.4%;
+    margin-top: 19.1rem;
+    width: 10.8rem;
+}
+.texto{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.texto:hover{opacity: 1}
